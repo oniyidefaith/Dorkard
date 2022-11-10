@@ -298,17 +298,36 @@ nav {
   font-weight: 300;
   font-size: 40px;
   line-height: 78px;
-  width: 100% !important;
   text-transform: uppercase;
   color: inherit;
 }
-.header_par{
-  width: 80%;
-}
 .par{
-  width: 30%;
   font-weight: 300;
   font-size: 16px;
   line-height: 30px;
+
+}
+
+.explanation_container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+.explanation_img{
+  height: auto;
+  max-width: 30%;
+  transform: scale(1);
+  padding-right: 0% 50px 0% 0% ;
+}
+
+.flexed_explain{
+  display: flex;
+  gap: 10%;
+}
+
+.flexed_kente{
+  max-width: 30%;
+  height: auto;
 
 }
