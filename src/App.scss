@@ -11,6 +11,7 @@
   --background-color-light: #29292b;
   --text-color: #ffffff;
   --border-color: #bb9d7b;
+  
 }
 
 .content {
@@ -136,6 +137,7 @@ nav {
   position: relative;
   margin-top: -3px;
   z-index: 1;
+  padding: none;
 }
 
 .menu:hover {
@@ -257,7 +259,7 @@ nav {
   position: relative;
   border: 1px solid var(--border-color);
   transition: all 0.35s;
-  margin-top: 80%;
+  margin-top: 20%;
 }
 
 .btn_link .span {
@@ -285,18 +287,21 @@ nav {
 }
 
 .explain_container{
-  display: flex;
+display: flex;
+justify-content: space-evenly;
   color: inherit;
   z-index: 1;
+  padding-right: 50px;
 }
 
 .explanation_content{
   margin-top: 55%;
+  padding-left: 50px;
 }
 
 .header_txt{
   font-weight: 300;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 78px;
   text-transform: uppercase;
   color: inherit;
@@ -308,17 +313,19 @@ nav {
 
 }
 
+.explain_txt{
+  width: 50%;
+}
 .explanation_container{
-  width: 100%;
   display: flex;
   justify-content: space-between;
-
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .explanation_img{
   height: auto;
-  max-width: 30%;
+  max-width: 30rem;
   transform: scale(1);
-  padding-right: 0% 50px 0% 0% ;
 }
 
 .flexed_explain{
@@ -327,7 +334,21 @@ nav {
 }
 
 .flexed_kente{
-  max-width: 30%;
-  height: auto;
+  max-width: 40%;
+  height: 70%;
+  transform: scale(1);
 
+}
+
+.flexed_kente_mini{
+  height: 30%;
+  max-width: 40%;
+}
+
+.quadrant{
+  z-index: 1;
+  background-color: var(--background-color-light);
+  color: var(--text-color);
+  display: grid;
+  border-bottom: 5px var(--border-color);
 }
