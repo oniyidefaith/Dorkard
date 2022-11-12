@@ -11,6 +11,7 @@ const Home = () => {
     <Nav />
     <div className="explanation_content"><Explanation/></div>
     <div className='quadrant'><Quadrant/></div>
+    <div className='new_content'></div>
     </div>
     </>
   )
