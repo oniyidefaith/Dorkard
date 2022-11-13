@@ -1,7 +1,6 @@
 import React from 'react'
 import man_kente from '../images/man_kente_home.jpg'
 import home_man from '../images/home_man.jpg'
-// import kente_home from '../images/kente_home.jpg'
 import home_ankara from '../images/home_ankara.jpg'
 import { Link } from 'react-router-dom'
 

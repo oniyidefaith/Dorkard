@@ -344,6 +344,8 @@ nav {
 
 .quadrant{
   padding-top: 20%;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .parent {
   display: inline-grid;
@@ -363,4 +365,26 @@ nav {
     .grid-item:hover{
       background-color: var(--background-color);
     }
-  
+  .new-cont-flex{
+    display: flex;
+    gap: 20%;
+  }
+  .new_content{
+    margin-top: 10%;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .hover_img:hover{
+    cursor: pointer;
+    background-image: linear-gradient(177deg, rgba(159, 96, 0, 0), #9f6000);
+  }
+  .newConst_txt{
+    width: 40%;
+  }
+  .explanation_img_two{
+    height:5%;
+    max-width: 20rem;
+    transform: scale(1);
+  }
+ 
