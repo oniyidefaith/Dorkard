@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap");
 
 * {
   padding: 0%;
@@ -11,6 +11,7 @@
   --background-color-light: #29292b;
   --text-color: #ffffff;
   --border-color: #bb9d7b;
+  --horizontal-color: #9f6000;
 }
 
 .content {
@@ -342,49 +343,64 @@ nav {
   max-width: 40%;
 }
 
-.quadrant{
+.quadrant {
   padding-top: 20%;
   padding-left: 50px;
   padding-right: 50px;
 }
 .parent {
   display: inline-grid;
-  grid-template-columns: repeat(1,1fr);
+  grid-template-columns: repeat(1, 1fr);
   background-color: var(--background-color-light);
   grid-gap: none;
   width: 50%;
 }
 
-  .grid-item {
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-    word-break: break-all;
-    border: 1px solid var(--border-color);
-    }
-    .grid-item:hover{
-      background-color: var(--background-color);
-    }
-  .new-cont-flex{
-    display: flex;
-    gap: 20%;
-  }
-  .new_content{
-    margin-top: 10%;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  word-break: break-all;
+  border: 1px solid var(--border-color);
+}
+.grid-item:hover {
+  background-color: var(--background-color);
+}
+.new-cont-flex {
+  display: flex;
+  gap: 20%;
+}
+.new_content {
+  margin-top: 10%;
+  padding-left: 50px;
+  padding-right: 50px;
+}
 
-  .hover_img:hover{
-    cursor: pointer;
-    background-image: linear-gradient(177deg, rgba(159, 96, 0, 0), #9f6000);
-  }
-  .newConst_txt{
-    width: 40%;
-  }
-  .explanation_img_two{
-    height:5%;
-    max-width: 20rem;
-    transform: scale(1);
-  }
- 
+.hover_img:hover {
+  cursor: pointer;
+  background-image: linear-gradient(177deg, rgba(159, 96, 0, 0), #9f6000);
+}
+.newConst_txt {
+  width: 40%;
+}
+.explanation_img_two {
+  height: 5%;
+  max-width: 20rem;
+  transform: scale(1);
+}
+
+.logo_name {
+  color: var(--border-color);
+  font-size: 60px;
+  font-family: "prompt";
+}
+.info_footer {
+  display: flex;
+  gap: 20px;
+}
+.logo-facebook.logo-whatsapp {
+  font-size: 40px;
+}
+.hr {
+  color: var(--border-color);
+}
