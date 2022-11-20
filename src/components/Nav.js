@@ -13,7 +13,6 @@ import ImgTwo from '../images/event_dresses.jpg'
 const Nav = (props) => {
     const links = ['Shop', 'About', 'Contact']
     const [count, setCount] = useState(0)
-    // const [element, setElement] = useState([])
 
     const content = [
         {
@@ -72,14 +71,9 @@ const Nav = (props) => {
                 </div>
                 <BurgerBar list={LinkList} />
             </div>
+            
             <div className="home_content">
-                {/* <div className="media_content">
-        <p className="description">Follow us __________</p> 
-        <ul className='social_list'>
-         <li><ion-icon name="logo-facebook"></ion-icon></li>
-         <li><ion-icon name="logo-instagram"></ion-icon></li>
-        </ul>
-        </div> */}
+    
                 {content.map((content, index) => {
                     return (
                     <div className={content.className} key={content.index}>
@@ -95,14 +89,18 @@ const Nav = (props) => {
                             </div>
                         </Fade>
 
-                        <Fade right>
                             <img src={content.img} className="landing_bg" alt="" />
-                        </Fade></>)}
+                       </>)}
                     </div>)
                 })}
 
 
             </div>
+            <div className="media_content">
+        <p className="description">Follow us __________
+        <ion-icon name="logo-instagram"></ion-icon><ion-icon name="logo-facebook"></ion-icon>
+        </p> 
+        </div>
         </>
     )
 }

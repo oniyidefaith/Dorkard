@@ -111,8 +111,8 @@ nav {
 }
 
 .burger-menu {
-  height: 70%;
-  width: 4em;
+  height: 60%;
+  width: 2em;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -121,8 +121,8 @@ nav {
 }
 
 .burger-bar {
-  width: 3em;
-  height: 0.3em;
+  width: 2.5em;
+  height: 0.2rem;
   background-color: var(--text-color);
   border-radius: 0.5em;
 }
@@ -176,21 +176,19 @@ nav {
   transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
 }
 .media_content {
-  margin-top: -50%;
   font-size: 20px;
-  display: flex;
-  gap: 20px;
-  transform: rotate(-90deg);
-  background-color: var(--background-color);
   color: var(--text-color);
+  width: 100%;
+  margin-left: -45%;
+  margin-top: -5%;
 }
-/* .description{
-  transform: rotate(-40deg);
-} */
+.description{
+  transform: rotate(-90deg);
+  word-spacing: 10px;
+} 
 .social_list {
-  /* border-radius: 50px;
-    border: 1px solid; */
-  display: flex;
+ border-radius: 50px;
+  border: 1px solid var(--text-color); 
   gap: 30px;
   justify-content: center;
   align-items: center;
@@ -403,4 +401,16 @@ nav {
 }
 .hr {
   color: var(--border-color);
+}
+.footer {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+ 
+@media screen and (max-width: 320px) {
+
+}
+@media screen and (max-width: 320px) {
+ 
+ 
 }
