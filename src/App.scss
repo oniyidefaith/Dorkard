@@ -185,7 +185,9 @@ nav {
 .description{
   transform: rotate(-90deg);
   word-spacing: 10px;
+  cursor: pointer;
 } 
+
 .social_list {
  border-radius: 50px;
   border: 1px solid var(--text-color); 
@@ -408,9 +410,21 @@ nav {
 }
  
 @media screen and (max-width: 320px) {
-
-}
-@media screen and (max-width: 320px) {
- 
- 
+  .content {
+    max-width: 150% !important;
+  }
+  .Logo{
+    height: 0%;
+    padding: none !important;
+    background-color: var(--background-color);
+  }
+  .nav_link{
+    display: none;
+  }
+  .nav_flex{
+    background-color: var(--background-color-light);
+  }
+  .name {
+    margin-top: -15%;
+  }
 }
