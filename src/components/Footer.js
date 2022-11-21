@@ -6,10 +6,10 @@ const Footer = () => {
     <div className='upper_footer'>
         <h1 className='logo_name'>Drockard</h1>
         <div className='info_footer'>
-            <p>no:Arizona usa</p>
-            <p>E-mail:drockard@gmail.com</p>
+            <p>Address: 1846 E Innovation Park Dr. Oro Valley, AZ 85755</p>
+            <p>E-mail: info@drockard.com</p>
         </div>
-        <p>Phones:0000 -123 -2342</p>
+        <p>Phones: +1 708-781-6859</p>
         <div className='icons'>
         <ion-icon name="logo-facebook"></ion-icon>
         <ion-icon name="logo-whatsapp"></ion-icon>
