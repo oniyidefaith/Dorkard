@@ -418,7 +418,8 @@ nav {
     padding: none !important;
     background-color: var(--background-color-light);
   }
-  .nav_list,.nav_link{
+  .nav_list,
+  .nav_link {
     z-index: 1;
   }
   .nav_link {
@@ -436,35 +437,40 @@ nav {
     z-index: 1;
     gap: 20px;
   }
-  
-  .menu{
+
+  .menu {
     z-index: 99;
-    width: 150%;
-    margin-right: 20%;
-    right: 20%;
+    width: 100%;
+    // margin-right: 200%;
   }
-  .quadrant{
+  .quadrant {
     display: grid;
     margin-top: 70vh;
     margin-left: -10%;
   }
-  .parent{
-    width: 120%;
+  .grid-item {
+    word-wrap: break-word;
+    font-size: 15px;
   }
-  .grid-item{
-  width: 100%;
+
+  .parent {
+    width: 100%;
+  }
+
+  .grid-item {
+    width: 100%;
   }
   .new-cont-flex {
     display: block;
   }
-  .explanation_content{
+  .explanation_content {
     display: inline-block;
   }
   .LogoCounter {
     margin-left: 0%;
     color: var(--text-color);
   }
-  .headCount{
+  .headCount {
     font-size: 3rem;
   }
   .forward {
@@ -484,25 +490,58 @@ nav {
     display: inline-grid;
   }
   .header_text {
-    width: 100% !important;
-    font-size: 25px;
-    line-height: 38px;
+    width: 90% !important;
+    font-size: 20px;
+    line-height: 30px;
   }
- 
-  .landing_txt{
-    width: 100%;
-    margin-left: 20%;
+  .header_text,
+  .header_par {
+    margin-left: 50px;
+  }
+
+  .landing_txt {
+    width: 90%;
+    margin-top: 20%;
+    left: 20px;
     z-index: 1;
     justify-content: space-between;
   }
   .landing_bg {
     height: 90%;
-    width: 150%;
+    width: 80%;
     transform: scale(1.25);
-    margin-left: -150% !important;
+    margin-left: -100% !important;
   }
-  .wrapper{
+  .landing_content {
+    margin-left: -10% !important;
+    margin-top: 90px !important;
+  }
+  .landing_content_two {
+    display: flex;
+    gap: 50px;
+    margin-left: 0% !important;
+    margin-top: 50% !important;
+  }
+  .wrapper {
     margin-left: -20px;
     margin-top: 50px;
   }
+  .explain_container {
+    display: block;
+  }
+  .flexed_explain {
+    display: inline-block;
+  }
+  .explanation_content {
+    margin-top: 150%;
+  }
+  .explanation_img {
+    width: 50%;
+  }
+  .flexed_kente_mini {
+    left: -20%;
+  }
+  // .explanation_img{
+  //   margin-top: 60%;
+  // }
 }

@@ -11,7 +11,7 @@ const Explanation = () => {
     <>
     <div className='explain_container'>
     <div className='flexed_explain'> 
-     <img src={man_kente} className='flexed_kente' alt="" />
+     <img src={man_kente} className='flexed_kente' alt="" /><br/>
       <img src={home_man} className='flexed_kente_mini' alt="" />
     
     </div>
