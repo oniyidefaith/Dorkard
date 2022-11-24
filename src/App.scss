@@ -409,7 +409,7 @@ nav {
 }
 // responsiveness for 320px
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 320px),(max-width: 375px),(max-width: 425px)  {
   .content {
     max-width: 150% !important;
   }
@@ -465,6 +465,8 @@ nav {
   }
   .explanation_content {
     display: inline-block;
+    margin-top: 170%;
+    
   }
   .LogoCounter {
     margin-left: 0%;
@@ -532,9 +534,7 @@ nav {
   .flexed_explain {
     display: inline-block;
   }
-  .explanation_content {
-    margin-top: 150%;
-  }
+  
   .explanation_img {
     width: 50%;
   }
