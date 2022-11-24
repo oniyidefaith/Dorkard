@@ -20,7 +20,7 @@
   max-width: 100%;
 }
 .forward {
-  height: 50px;
+  height: 30px;
   width: 100%;
   margin-left: 80%;
   cursor: pointer;
@@ -294,7 +294,7 @@ nav {
 }
 
 .explanation_content {
-  margin-top: 55%;
+  margin-top: 60%;
   padding-left: 50px;
 }
 
@@ -370,7 +370,7 @@ nav {
   gap: 20%;
 }
 .new_content {
-  margin-top: 10%;
+  margin-top: 20vh;
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -445,7 +445,7 @@ nav {
   }
   .quadrant {
     display: grid;
-    margin-top: 70vh;
+    margin-top: 20vh;
     margin-left: -10%;
   }
   .grid-item {
@@ -520,7 +520,7 @@ nav {
     display: flex;
     gap: 50px;
     margin-left: 0% !important;
-    margin-top: 50% !important;
+    margin-top: -53% !important;
   }
   .wrapper {
     margin-left: -20px;
@@ -538,10 +538,53 @@ nav {
   .explanation_img {
     width: 50%;
   }
+  .flexed_kente,
+  .flexed_kente_mini {
+    width: 100% !important;
+    transform: scale(2);
+    margin-left: 20%;
+  }
   .flexed_kente_mini {
     left: -20%;
+    margin-top: 20%;
   }
-  // .explanation_img{
-  //   margin-top: 60%;
-  // }
+  .explain_txt {
+    width: 100%;
+    margin-top: 20%;
+  }
+  .explanation_img {
+    margin-top: 30%;
+    margin-left: 20%;
+    transform: scale(2);
+  }
+  .newConst_txt{
+    margin-top: 40%;
+    width: 100%;
+  }
+  .header_txt {
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .new_content{
+    margin-top: 20%;
+  }
+  .explanation_img_two{
+    margin-top: 10%;
+    margin-left: 20%;
+    width: 80%;
+    transform: scale(1);
+  }
+  .logo_name{
+    font-size: 40px;
+  }
+  .info_footer {
+    display: inline-block;
+  }
+  .hr{
+    width: 100%;
+  }
+  .footer{
+    margin-top: 20vh;
+  }
+
 }

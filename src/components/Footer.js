@@ -8,7 +8,7 @@ const Footer = () => {
         <div className='info_footer'>
             <p>Address: 1846 E Innovation Park Dr. Oro Valley, AZ 85755</p>
             <p>E-mail: info@drockard.com</p>
-        </div>
+        </div><br/>
         <p>Phones: +1 708-781-6859</p>
         <div className='icons'>
         <ion-icon name="logo-facebook"></ion-icon>
