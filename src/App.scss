@@ -409,7 +409,7 @@ nav {
 }
 // responsiveness for 320px
 
-@media screen and (max-width: 320px),(max-width: 375px),(max-width: 425px)  {
+@media screen and (max-width: 320px), (max-width: 375px), (max-width: 425px) {
   .content {
     max-width: 150% !important;
   }
@@ -466,7 +466,6 @@ nav {
   .explanation_content {
     display: inline-block;
     margin-top: 170%;
-    
   }
   .LogoCounter {
     margin-left: 0%;
@@ -534,7 +533,7 @@ nav {
   .flexed_explain {
     display: inline-block;
   }
-  
+
   .explanation_img {
     width: 50%;
   }
@@ -557,7 +556,7 @@ nav {
     margin-left: 20%;
     transform: scale(2);
   }
-  .newConst_txt{
+  .newConst_txt {
     margin-top: 40%;
     width: 100%;
   }
@@ -565,26 +564,33 @@ nav {
     font-size: 20px;
     line-height: 35px;
   }
-  .new_content{
+  .new_content {
     margin-top: 20%;
   }
-  .explanation_img_two{
+  .explanation_img_two {
     margin-top: 10%;
     margin-left: 20%;
     width: 80%;
     transform: scale(1);
   }
-  .logo_name{
+  .logo_name {
     font-size: 40px;
   }
   .info_footer {
     display: inline-block;
   }
-  .hr{
+  .hr {
     width: 100%;
   }
-  .footer{
+  .footer {
     margin-top: 20vh;
   }
-
+}
+@media screen and (max-width: 425px) {
+  .quadrant{
+    margin-left: 6%;
+  }
+  .explanation_img_two{
+    margin-left: -7%;
+  }
 }
