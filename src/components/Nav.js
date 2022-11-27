@@ -12,7 +12,7 @@ import ImgTwo from '../images/event_dresses.jpg'
 
 const Nav = (props) => {
     const links = ['Shop', 'About', 'Contact']
-    const [count, setCount] = useState(0)
+    const [count, setCount] = useState(1)
 
     const content = [
         {
@@ -39,8 +39,8 @@ const Nav = (props) => {
 
   
 
-    if (count === 2) {
-        setCount(0)
+    if (count === 3) {
+        setCount(1)
 
     }
     const LinkList = links.map(lists => <Link className='nav_link' to={lists + '/'}>{lists.toLocaleLowerCase()}</Link>)
@@ -51,9 +51,9 @@ const Nav = (props) => {
                     <p className='name'>Drockard</p>
                     <div className='LogoCounter'>
                         <span className='headCount'>{'0' + count}</span>/
-                        <span className='miniCount'>01</span>
+                        <span className='miniCount'>02</span>
                     </div>
-                    <img src={ForwardBtn} onClick={() => { setCount(count + 1); nextSlide(); }} className="forward" alt="" />
+                    <img src={ForwardBtn} onClick={() => { setCount(count+ 1); nextSlide(); }} className="forward" alt="" />
                 </div>
                 <div className="nav_list nav_link">
                     Home

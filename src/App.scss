@@ -117,7 +117,6 @@ nav {
   width: 2em;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   justify-content: space-between;
   cursor: pointer;
 }
@@ -155,7 +154,7 @@ nav {
 /* ----- animations--------- */
 /* clicked */
 .burger-bar.clicked:nth-child(1) {
-  transform: rotate(45deg) translate(0.7em, 1em);
+  transform: rotate(45deg) translate(0.5em, 1em);
   transition: ease-out 0.5s;
 }
 
@@ -165,7 +164,7 @@ nav {
 }
 
 .burger-bar.clicked:nth-child(3) {
-  transform: rotate(135deg) translate(-0.25em, 0.7em);
+  transform: rotate(135deg) translate(-0.2em, 0.6em);
   transition: ease-out 0.5s;
 }
 
@@ -407,7 +406,7 @@ nav {
   padding-left: 100px;
   padding-right: 100px;
 }
-// responsiveness for 320px
+// responsiveness for 320px and  375px
 
 @media screen and (max-width: 320px), (max-width: 375px), (max-width: 425px) {
   .content {
@@ -423,7 +422,7 @@ nav {
     z-index: 1;
   }
   .nav_link {
-    display: none;
+    display: none !important;
     z-index: 1;
   }
   .nav_flex {
@@ -441,16 +440,16 @@ nav {
   .menu {
     z-index: 99;
     width: 100%;
-    // margin-right: 200%;
+    font-size: 15px;
   }
   .quadrant {
     display: grid;
     margin-top: 20vh;
-    margin-left: -10%;
+    margin-left: -5%;
   }
   .grid-item {
     word-wrap: break-word;
-    font-size: 15px;
+    font-size: 12px !important;
   }
 
   .parent {
@@ -465,7 +464,7 @@ nav {
   }
   .explanation_content {
     display: inline-block;
-    margin-top: 170%;
+    margin-top: 170% !important;
   }
   .LogoCounter {
     margin-left: 0%;
@@ -484,8 +483,9 @@ nav {
     margin-left: 70%;
   }
   .media_content {
+    margin-right: 10%;
     font-size: 10px;
-    margin-top: 40%;
+    margin-top: 70%;
   }
   .home_content {
     display: inline-grid;
@@ -500,10 +500,16 @@ nav {
     margin-left: 50px;
   }
 
+  .BlockView {
+    text-align: left;
+    margin-left: 5px;
+  }
   .landing_txt {
-    width: 90%;
+    width: 85%;
     margin-top: 20%;
-    left: 20px;
+    margin-left: 3%;
+    word-wrap: break-word;
+    left: 15px !important;
     z-index: 1;
     justify-content: space-between;
   }
@@ -586,11 +592,108 @@ nav {
     margin-top: 20vh;
   }
 }
-@media screen and (max-width: 425px) {
-  .quadrant{
+@media screen and (max-width: 375px), (max-width: 425px) {
+  .nav_flex {
+    gap: 12% !important;
+  }
+  .quadrant {
     margin-left: 6%;
   }
-  .explanation_img_two{
+  .explanation_img_two {
     margin-left: -7%;
+  }
+  .landing_content_two {
+    margin-top: -24% !important;
+  }
+  .media_content {
+    margin-top: 60% !important;
+    font-size: 20px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .nav_flex {
+    gap: 2%;
+  }
+  .Logo {
+    padding: 6% 6% 15% 2%;
+  }
+  .name {
+    margin-top: -15%;
+    font-size: 30px;
+  }
+  .nav_link {
+    display: flex;
+  }
+  .mini_icons {
+    gap: 10%;
+  }
+  .menu {
+    z-index: 99;
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .LogoCounter {
+    margin-left: 0%;
+    margin-top: 30%;
+  }
+  .forward {
+    margin-left: 10%;
+  }
+  .forward:hover {
+    margin-left: 15%;
+  }
+  .headCount {
+    font-size: 3rem;
+    line-height: 20px;
+  }
+  .miniCount {
+    font-size: 2rem;
+  }
+  .header_text {
+    width: 90% !important;
+    font-size: 20px !important;
+    line-height: 30px;
+  }
+
+  .explanation_content {
+    margin-top: 60%;
+  }
+  .media_content {
+    margin-right: 10%;
+    font-size: 20px;
+    margin-top: 10%;
+  }
+  .explanation_img {
+    width: 70%;
+    transform: scale(1);
+  }
+  .flexed_explain {
+    gap: 5%;
+  }
+  .flexed_kente {
+    height: 40%;
+  }
+  .flexed_kente_mini {
+    width: 40% !important;
+    height: 20%;
+  }
+  .header_txt {
+    line-height: 25px;
+  }
+  .grid-item {
+    word-wrap: break-word;
+    font-size: 24px;
+  }
+  .explanation_img {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .header_text{
+    font-size: 30px;
+  }
+  .landing_bg{
+    transform: scale(1);
   }
 }
